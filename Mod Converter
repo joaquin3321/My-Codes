@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+
+{
+int n1, n2, remainder;
+char option;
+
+do{
+printf("\nGetting the remainder using Mod\n\n");
+
+printf("Enter the first number:  ");
+scanf("%d", &n1);
+		
+printf("Enter the second number: ");
+scanf("%d", &n2);
+	
+remainder = n1 % n2;
+printf("The remainder is %d", remainder);
+	
+printf("\nDo you want to continue?(y/n): ");
+scanf(" %c", &option);
+}
+while(option=='y');
+
+return 0;
+}

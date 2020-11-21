@@ -1,0 +1,56 @@
+#include <stdio.h>
+int main()
+{
+int n1, n2, result;
+char n, option;
+do{
+printf("What Operation Do You Want To Use?\n\n");
+printf("Press + for Addition\n");
+printf("Press - for Subtraction\n");
+printf("Press * for Multiplicationtion\n");
+printf("Press / for Division\n");
+printf("Press 5 for Mod\n");
+	
+printf("Enter The First Number: ");
+scanf("%d", &n1);
+	
+printf("Choose An Operation: ");
+scanf(" %c", &n);
+	
+	
+printf("Enter The Second Number: ");
+scanf("%d", &n2);
+	
+switch(n)
+{
+case '+': result=n1+n2;
+printf("The Sum is %d\n", result); 
+break;
+
+case '-': result=n1-n2;
+printf("The Difference is %d\n", result); 
+break;
+	
+case '*': result=n1*n2;
+printf("The Product is %d\n", result); 
+break;
+	
+case '/': result=n1/n2;
+printf("The Quotient is %d\n", result); 
+break;
+	
+case '5': result=n1%n2;
+printf("The Remainder is %d\n", result); 
+break;
+	
+	
+default:
+printf("Wrong Input");
+	
+}
+printf("\nDo You Want To Continue? (y/n): ");
+scanf(" %c", &option);
+}while(option == 'y');
+
+return 0;
+	}

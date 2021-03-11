@@ -1,0 +1,78 @@
+package jeep;
+
+public class Jeep {
+    private String Manufacturer;
+    private int seatCapacity;
+    private int wheels;
+    private int MaximumSpeed;
+    private String wifiName;
+    private String wifiPassword;
+
+    
+    public static void main(String[] args){
+    
+        Jeep jeepney = new Jeep();
+        System.out.println("Manufacturer: "+jeepney.getManufacturer());
+        System.out.println("Seat Capacity: "+jeepney.getSeatCapacity());
+        System.out.println("Wheels: "+jeepney.getWheels()); 
+        System.out.println("Maximum Speed: "+jeepney.getMaximumSpeed());
+        System.out.println("Wifi Name: "+jeepney.getWifiName());
+        System.out.println("Wifi Password: "+jeepney.getWifiPassword());
+    
+    }
+      public String getManufacturer() {
+        return wifiPassword;
+    }
+
+    public void setManufacturer(String Manufacturer) {
+        this.wifiPassword = wifiPassword;
+    }
+
+    public int getSeatCapacity() {
+        return seatCapacity;
+     
+    }
+
+    public void setSeatCapacity(int seatCapacity) {
+        this.seatCapacity = seatCapacity;
+    }
+
+  
+    public int getWheels() {
+        return wheels;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+   
+    public int getMaximumSpeed() {
+        return MaximumSpeed;
+    }
+
+    public void setMaximumSpeed(int MaximumSpeed) {
+        this.MaximumSpeed = MaximumSpeed;
+    }
+
+    public String getWifiName() {
+        return wifiName;
+    }
+
+    public void setWifiName(String wifiName) {
+        this.wifiName = wifiName;
+    }
+
+    public String getWifiPassword() {
+        return wifiPassword;
+    }
+
+    public void setWifiPassword(String wifiPassword) {
+        this.wifiPassword = wifiPassword;
+    }
+  
+   
+   
+}
+        
+   

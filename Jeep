@@ -1,17 +1,8 @@
 package jeep;
 
 public class Jeep {
-    private String Manufacturer;
-    private int seatCapacity;
-    private int wheels;
-    private int MaximumSpeed;
-    private String wifiName;
-    private String wifiPassword;
-
-    
-    public static void main(String[] args){
-    
-        Jeep jeepney = new Jeep();
+    Jeep jeepney = new Jeep();
+        jeepney.setManufacturer("TOYOTA");
         System.out.println("Manufacturer: "+jeepney.getManufacturer());
         System.out.println("Seat Capacity: "+jeepney.getSeatCapacity());
         System.out.println("Wheels: "+jeepney.getWheels()); 
@@ -21,11 +12,11 @@ public class Jeep {
     
     }
       public String getManufacturer() {
-        return wifiPassword;
+        return Manufacturer;
     }
 
     public void setManufacturer(String Manufacturer) {
-        this.wifiPassword = wifiPassword;
+        this.Manufacturer = Manufacturer;
     }
 
     public int getSeatCapacity() {
@@ -70,9 +61,7 @@ public class Jeep {
     public void setWifiPassword(String wifiPassword) {
         this.wifiPassword = wifiPassword;
     }
-  
-   
-   
+    
+    
 }
-        
    
